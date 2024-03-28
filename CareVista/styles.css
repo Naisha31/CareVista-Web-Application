@@ -1,0 +1,89 @@
+﻿.navbar {
+    background-color: #05527c;
+    overflow: hidden;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 20px 14px 20px;
+    display: block;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+    .container h2 {
+        margin-top: 0;
+    }
+
+input[type="text"],
+input[type="password"],
+button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.error-message {
+    color: red;
+}
+
+.containerh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.element {
+    background-color: #e1f3f8;
+    color: #000000; /* Changed text color */
+    padding: 40px; /* Increased padding */
+    margin: 30px; /* Increased margin */
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border-radius: 10px; /* Rounded corners */
+    font-size: 25px; /* Increased font size */
+}
+
+
+    .element:hover {
+        transform: scale(1.1);
+    }
