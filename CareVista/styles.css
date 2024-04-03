@@ -3,9 +3,14 @@
     overflow: hidden;
     height: 60px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between; /* Change to space-between */
     align-items: center;
-    flex-direction: column;
+    padding: 0 20px; /* Add padding */
+    position: fixed; /* Add position fixed */
+    top: 0; /* Add top 0 to fix it at the top */
+    left: 0; /* Add left 0 to start from the left edge */
+    width: 100%; /* Make it span the full width */
+    z-index:1000;
 }
 
 .logo {
@@ -87,3 +92,38 @@ label {
     .element:hover {
         transform: scale(1.1);
     }
+
+
+.cart-button {
+    position: fixed;
+    top: 0;
+    right: 0;
+    transform: translateY(50%);
+    background-color: #05527c;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cart-button {
+    padding: 0;
+    margin: 0;
+}
+
+    .cart-button button {
+        color: white;
+        font-size: 24px;
+        border: none;
+        background: none;
+        transition: transform 0.3s ease;
+    }
+
+    .cart-button:hover {
+        background-color: #07cfa3;
+        transform: translateY(50%) scale(1.05);
+    }
+
+        .cart-button:hover button {
+            transform: scale(1.1);
+        }

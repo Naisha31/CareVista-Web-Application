@@ -23,8 +23,8 @@
         </div>
         <div class="containerh">
       <a href="Medicine.aspx">      <div class="element" id="element1">Medicine</div> </a>
-             <div class="element" id="element2">Book Appointment</div>
-            <div class="element" id="element3">Lab Tests</div>
+            <div class="element" id="element2">Book Appointment</div>
+            <a href="Diagnostics.aspx"> <div class="element" id="element3">Lab Tests</div></a>
             <div class="element" id="element4">Your Medical Profile</div>
         </div>
         </form>

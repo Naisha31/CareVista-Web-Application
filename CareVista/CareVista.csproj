@@ -73,9 +73,20 @@
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
     <Content Include="Cart.aspx" />
+    <Content Include="Diagnostics.aspx" />
     <Content Include="Home.aspx" />
+    <Content Include="lab1.jpg" />
+    <Content Include="lab2.jpg" />
+    <Content Include="lab3.jpg" />
+    <Content Include="lab4.jpg" />
+    <Content Include="lab5.jpg" />
     <Content Include="Login.aspx" />
     <Content Include="Medicine.aspx" />
+    <Content Include="product1.jpg" />
+    <Content Include="product2.jpg" />
+    <Content Include="product3.jpg" />
+    <Content Include="product4.jpg" />
+    <Content Include="product5.jpg" />
     <Content Include="SignUp.aspx" />
     <Content Include="styles.css" />
     <Content Include="Success.aspx" />
@@ -95,6 +106,13 @@
     </Compile>
     <Compile Include="Cart.aspx.designer.cs">
       <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Diagnostics.aspx.cs">
+      <DependentUpon>Diagnostics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Diagnostics.aspx.designer.cs">
+      <DependentUpon>Diagnostics.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>

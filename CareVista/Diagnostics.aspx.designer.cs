@@ -11,7 +11,7 @@ namespace CareVista
 {
 
 
-    public partial class Medicine
+    public partial class Diagnostics
     {
 
         /// <summary>
@@ -42,15 +42,6 @@ namespace CareVista
         protected global::System.Web.UI.WebControls.Button Button2;
 
         /// <summary>
-        /// Button3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button3;
-
-        /// <summary>
         /// Button4 control.
         /// </summary>
         /// <remarks>
@@ -67,5 +58,14 @@ namespace CareVista
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button5;
+
+        /// <summary>
+        /// Button6 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button6;
     }
 }
